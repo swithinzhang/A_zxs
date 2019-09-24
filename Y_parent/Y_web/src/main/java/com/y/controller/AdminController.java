@@ -24,7 +24,7 @@ public class AdminController {
     @RequestMapping("/login")
     public @ResponseBody
     String userLogin(String data, HttpServletRequest request) throws IOException {
-        System.out.println("进来了登录");
+//        System.out.println("进来了登录");
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         System.out.println("拿到了前台的用户名："+username);
